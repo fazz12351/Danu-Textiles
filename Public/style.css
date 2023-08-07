@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+  background-image: url("https://wallpaperaccess.com/full/1307260.jpg");
+  font-family: "Noto Serif Vithkuqi", serif;
+  background-color: black;
+  color: white;
+}
+.Top-Container {
+  padding-top: 5%;
+}
+.navigationBar {
+  padding: 5px;
+  /* background-color: yellow; */
+}
+.navigationBar a,
+.navigationBar h2 {
+  color: white;
+  text-decoration: underline;
+}
+.navigationBar img {
+  height: 50px;
+}
+.nav-Title {
+  position: absolute;
+  right: 10px;
+}
+.DanuTextiles {
+  color: yellowgreen;
+  text-decoration: underline;
+}
+.container {
+}
+.container h1 {
+  justify-content: center;
+  align-items: center;
+}
+.corosel {
+}
+.corosel:hover {
+  background: black;
+  transition: background 1s ease-in-out;
+}
+.leftContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightContainer {
+}
+
+.corosel img {
+  border-radius: 10px;
+  opacity: 0.5;
+  width: 600px;
+  height: 600px;
+  background: #222;
+  -webkit-transition: opacity 2s ease;
+  -webkit-transition: width 2s ease, height 2s ease;
+  -moz-transition: width 2s ease, height 2s ease;
+  -o-transition: width 2s ease, height 2s ease;
+  -ms-transition: width 2s ease, height 2s ease;
+  transition: width 2s ease, height 2s ease;
+}
+
+.corosel img:hover {
+  width: 300px;
+  height: 300px;
+}
